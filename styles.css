@@ -139,3 +139,27 @@ textarea {
   width: 600px;
   margin: 0 0 0 100px;
 }
+
+.port {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card {
+  display: block;
+  border: 2px solid black;
+  padding: 3%;
+}
+
+#title {
+  padding: 5px 15px;
+  border: 2px solid black;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#tools {
+  margin: 5px 15px;
+  font-size: 25px;
+}
