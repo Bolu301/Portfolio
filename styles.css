@@ -147,19 +147,44 @@ textarea {
 }
 
 .card {
+  width: 500px;
   display: block;
   border: 2px solid black;
-  padding: 3%;
+  border-radius: 10px;
+  box-shadow: -2px 4px 12px 6px;
+}
+
+.card:hover {
+  box-shadow: -2px 4px 12px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.01);
 }
 
 #title {
-  padding: 5px 15px;
-  border: 2px solid black;
+  padding: 15px 15px;
+  border-top: 2px solid black;
   font-size: 30px;
   font-weight: 600;
+  border-radius: 10px;
 }
 
 #tools {
   margin: 5px 15px;
   font-size: 25px;
+  font-weight: 5500;
+}
+
+.ss {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 497px;
+  height: 250px;
+}
+
+.exp {
+  font-size: 16px;
+  width: 400px;
+  margin: 15px auto;
+  font-weight: none;
 }
