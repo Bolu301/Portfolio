@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier Prime", monospace;
+  background-color: #da5552;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 7%;
+}
+
+#initials {
+  width: 100px;
+  margin-right: auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#initials:hover {
+  transform: scale(0.9);
+}
+
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 7px;
+  font-size: 18px;
+}
+
+#nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+#nav_links li a:hover {
+  color: #e39695;
+  transform: scale(1.1);
+}
+
+section {
+  display: flex;
+  align-items: center;
+  padding: 125px 7% 300px 7%;
+  font-size: 30px;
+}
+
+.lorem {
+  margin: 20px 300px 0 0;
+  font-size: 25px;
+}
+
+#btn {
+  margin: 20px 0 0 -6px;
+  width: 150px;
+  border: 1px solid;
+  background-color: #e39695;
+  border-radius: 2.5px;
+  padding: 8px 4px;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+#btn:hover {
+  transform: scale(0.9);
+}
+
+#quote {
+  width: 500px;
+  height: 300px;
+}
+
+.form {
+  font-size: 28px;
+  padding: 30px 7%;
+}
+
+.contact {
+  padding: 20px 0;
+  font-size: 28px;
+}
+
+label {
+  display: block;
+  margin: 0 0 6px 0;
+}
+
+input,
+textarea {
+  width: 500px;
+  background-color: #e39695;
+  color: #000;
+  font-size: 20px;
+  padding: 8px 15px;
+  margin: 0 0 25px 0;
+}
+
+#sbtn {
+  display: block;
+  border: 0;
+  padding: 15px 25px;
+  font-size: 16.5px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #7c2927;
+  transition: 0.5s ease;
+}
+
+#sbtn:hover {
+  background-color: #fff;
+  color: #7c2927;
+}
+
+.footer {
+  padding: 7% 30px 40px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer li {
+  margin: 0 0 0 30px;
+}
+
+#icard {
+  display: flex;
+}
+
+#info {
+  margin: 0 10px 0 0;
+}
+
+#logic {
+  width: 600px;
+  margin: 0 0 0 100px;
+}
