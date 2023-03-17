@@ -111,13 +111,13 @@ textarea {
   font-size: 16.5px;
   color: #fff;
   cursor: pointer;
-  background-color: #7c2927;
+  background-color: rgb(78, 80, 200);
   transition: 0.5s ease;
 }
 
 #sbtn:hover {
   background-color: #fff;
-  color: #7c2927;
+  color: rgb(78, 80, 200);
 }
 
 .footer {
